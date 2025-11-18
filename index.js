@@ -1,9 +1,7 @@
-const validateAge (oldEnough) { 
-  if (oldEnough = true) {
+function validateAge (oldEnough) { 
+  if (oldEnough === true) {
     return "old enough";
-  }
-
-  if (oldEnough = false) {
+  } else {
     return null;
   }
 }
